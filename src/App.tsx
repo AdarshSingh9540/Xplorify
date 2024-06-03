@@ -2,7 +2,7 @@ import './App.css'
 import Navbar from './components/Navbar'
 import Card from './components/Card'
 import { KindeProvider } from "@kinde-oss/kinde-auth-react";
-import Auth from './components/Auth';
+
 function App() {
   return (
     <KindeProvider
@@ -12,7 +12,7 @@ function App() {
     logoutUri="http://localhost:3000"
     >
       <>
-      <Auth/>
+
         <Navbar />
         <Card />
       </>
